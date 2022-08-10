@@ -1,0 +1,77 @@
+
+
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  height: 100vh;
+  background-image: url("../Immagini/background java.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  opacity: 1;
+  margin-left: 70px;
+  user-select: none;
+}
+
+@font-face {
+  font-family: ds-term104;
+  src: url("../Font/DS-TERM.TTF");
+}
+@font-face {
+  font-family: dec-term104;
+  src: url("../Font/_decterm.ttf");
+}
+
+
+p{
+    color: #ffffff;
+    font-family: "Source Code Pro",monospace;
+}
+ul,li{
+    color: #ffffff;
+    font-family: "Source Code Pro",monospace;
+    list-style: none;
+}
+
+font{
+    font-family: "Source Code Pro",monospace;
+}
+
+
+.center{
+  display: flex;
+  width: 100%;
+}
+
+
+.TitleJava{
+  color: #DE0F0F;
+  font-family: ds-term104, monospace;
+  font-size: 3rem;
+  width: max-content;
+
+}
+
+
+.bottomLeft{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.backButtonStyle{
+  color: #DE0F0F;
+  font-family: "Source Code Pro",monospace;
+}
+
+.backButtonStyle:hover{
+  color: rgba(222,15,15, 0.8);
+  cursor: pointer;
+}

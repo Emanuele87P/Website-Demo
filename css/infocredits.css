@@ -1,0 +1,40 @@
+:root{
+  --newTextColor: #2B78EE;
+  --varibileManu: #000000;
+}
+
+
+
+*{
+  padding: 0;
+  margin: 4;
+  box-sizing: border-box;
+}
+
+
+body{
+  height: 100vh;
+  background: rgb(0,6,36);
+  background: -moz-linear-gradient(180deg, rgba(0,6,36,1) 60%, rgba(19,19,65,1) 90%, rgba(0,6,36,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(0,6,36,1) 60%, rgba(19,19,65,1) 90%, rgba(0,6,36,1) 100%);
+  background: linear-gradient(180deg, rgba(0,6,36,1) 60%, rgba(19,19,65,1) 90%, rgba(0,6,36,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000624",endColorstr="#000624",GradientType=1);
+  overflow-y: hidden;
+}
+
+
+@font-face {
+  font-family: ds-term104;
+  src: url("../Font/DS-TERM.TTF");
+}
+@font-face {
+  font-family: dec-term104;
+  src: url("../Font/_decterm.ttf");
+}
+
+
+.Credits{
+  font-family: dec-term104, monospace;
+  font-size: 1.5rem;
+  color: var(--newTextColor);
+}

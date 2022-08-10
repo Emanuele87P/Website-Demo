@@ -1,0 +1,113 @@
+
+
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0, 1);
+  overflow: hidden;
+  user-select: none;
+}
+
+/*
+  background: rgba(11,8,22);
+  background: -moz-linear-gradient(180deg, rgba(11,8,22,1) 18%, rgba(24,19,49,1) 65%, rgba(11,9,17,1) 87%);
+  background: -webkit-linear-gradient(180deg, rgba(11,8,22,1) 18%, rgba(24,19,49,1) 65%, rgba(11,9,17,1) 87%);
+  background: linear-gradient(180deg, rgba(11,8,22,1) 18%, rgba(24,19,49,1) 65%, rgba(11,9,17,1) 87%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0b0816",endColorstr="#0b0911",GradientType=1);
+  overflow: hidden;
+
+ol{
+  width: 100%;
+  height: 100%;
+}
+
+ol, li{
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  justify-content: flex-end;
+}
+
+.centro{
+  display: flex;
+  width: 40vw;
+  height: 40vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: baseline;
+  border: 2px solid white;
+  background-color: rgba(0,0,0, 0.5);
+  user-select: none;
+}
+
+.stileScritte{
+  width: 100%;
+  margin-top: 10vh;
+  transition: background-color 2s ease-out;
+}
+
+.stileScritte:hover{
+  background-color: #092141;
+}
+
+.scritte{
+  display: inline-block;
+  width: auto;
+}
+
+.stile{
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+}
+
+
+.textFont{
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Source Code Pro", monospace;
+}
+
+*/
+
+
+.parentclass{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video{
+ width: 1280px;
+ height: 720px;
+}
+
+
+
+@media only screen and (max-height: 700px){
+  video{
+    visibility: hidden;
+  }
+  .noResize{
+    position: absolute;
+    color: red;
+    font-family: monospace, monospace;
+    font-size: 2rem;
+    top: 50%;
+  }
+}
