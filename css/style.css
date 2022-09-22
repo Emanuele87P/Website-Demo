@@ -93,7 +93,8 @@ ol, li{
   font-weight: bold;
 }
 .textFont{
-  font-family: dec-term104, monospace;
+  font-family: monospace;
+  /* font-family: dec-term104, monospace; */
 }
 .textFont2{
   font-family: ds-term104;
@@ -116,7 +117,8 @@ ol, li{
   user-select: none;
   margin: 10px;
   font-size: 1rem;
-  font-family: 'Source Code Pro', monospace;
+  font-family: monospace;
+  /* font-family: 'Source Code Pro', monospace; */
   font-weight: bold;
 }
 .textsopra{
