@@ -59,7 +59,7 @@ ol, li{
 }
 @font-face {
   font-family: dec-term104;
-  src: url("../Font/_decterm.ttf");
+  src: url("../Font/_decterm.TTF");
 }
 .blueTextColor2{
   color: var(--blueMoreBlue);
