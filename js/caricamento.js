@@ -16,7 +16,7 @@ scratch.addEventListener("click", function(){
   value = 1;
   localStorage.setItem('numero', value);
   localStorage.setItem('scratchString', stringScratch);
-  window.location.replace("caricamento.html");
+  window.location.replace("loadingScreen.html");
 });
 
 python.addEventListener("click", function(){
