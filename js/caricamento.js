@@ -23,21 +23,21 @@ python.addEventListener("click", function(){
   value = 2;
   localStorage.setItem('numero', value);
   localStorage.setItem('pythonString', stringPython);
-  window.location.replace("caricamento.html");
+  window.location.replace("loadingScreen.html");
 })
 
 java.addEventListener("click", function(){
   value = 3;
   localStorage.setItem('numero', value);
   localStorage.setItem('javaString', stringJava);
-  window.location.replace("caricamento.html");
+  window.location.replace("loadingScreen.html");
 })
 
 info.addEventListener("click", function(){
   value = 4;
   localStorage.setItem('numero', value);
   localStorage.setItem('infoString', stringInfo);
-  window.location.replace("caricamento.html");
+  window.location.replace("loadingScreen.html");
 })
 
 
